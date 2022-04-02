@@ -7,7 +7,7 @@ import {
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import React, { useContext, useState } from "react";
-import OrderProcessLayout from "../../Components/OrderProcessLayout";
+import OrderProcessLayout from "../../components/OrderProcessLayout";
 import { contextStore } from "../../utils/Store";
 import { deleteFromStorage } from "@rehooks/local-storage";
 export default function Index() {
