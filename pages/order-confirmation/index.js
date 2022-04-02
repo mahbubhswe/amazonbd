@@ -1,6 +1,6 @@
 import { Center } from "@chakra-ui/react";
 import React from "react";
-import OrderProcessLayout from "../../Components/OrderProcessLayout";
+import OrderProcessLayout from "../../components/OrderProcessLayout";
 
 export default function Index() {
   return (
