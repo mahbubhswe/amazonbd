@@ -1,5 +1,5 @@
 import { useUserAuth } from "../utils/userContext";
-import SignIn from "../Components/SignIn";
+import SignIn from "../components/SignIn";
 export default function Protected({ children }) {
   const { user } = useUserAuth();
 
