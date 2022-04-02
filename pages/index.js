@@ -1,7 +1,7 @@
 import React from "react";
-import Carousel from "../Components/Carousel";
-import Home from "../Components/Home";
-import Layout from "../Components/Layout";
+import Carousel from "../components/Carousel";
+import Home from "../components/Home";
+import Layout from "../components/Layout";
 
 export default function Index({ data }) {
   return (
