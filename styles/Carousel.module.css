@@ -1,0 +1,20 @@
+.carouselContainer {
+  display: flex;
+}
+.carouselItem {
+  width: 50%;
+  height: 400px;
+  display: grid;
+  place-content: center;
+}
+
+@media screen and (max-width: 570px) {
+  .carouselContainer {
+    flex-direction: column !important;
+  }
+
+  .carouselItem {
+    width: 100%;
+    height: 200px;
+  }
+}
