@@ -1,5 +1,5 @@
 import React from "react";
-import SignIn from "../../Components/SignIn";
+import SignIn from "../../components/SignIn";
 
 export default function Index() {
   return <SignIn></SignIn>;
