@@ -3,7 +3,7 @@ import { app } from "../utils/firebase-config";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 import { Box, Center, Heading, SimpleGrid } from "@chakra-ui/react";
 import ShowProduct from "./ShowProduct";
-import HomeProductSLider from "../Components/HomeProductSLider";
+import HomeProductSLider from "../components/HomeProductSLider";
 export default function Home() {
   const db = getFirestore(app);
   const [products, setProducts] = useState([]);
