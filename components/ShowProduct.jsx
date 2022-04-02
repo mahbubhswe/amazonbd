@@ -13,7 +13,7 @@ import {
 import { useContext } from "react";
 import { contextStore } from "../utils/Store";
 import { FiShoppingCart } from "react-icons/fi";
-import RatingNnumReview from "../Components/RatingNnumReviews";
+import RatingNnumReview from "../components/RatingNnumReviews";
 import { useToast } from "@chakra-ui/react";
 export default function ShowProduct({ product }) {
   const toast = useToast();
