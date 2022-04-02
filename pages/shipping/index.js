@@ -12,7 +12,7 @@ import {
   Alert,
 } from "@chakra-ui/react";
 import { useContext, useState } from "react";
-import OrderProcessLayout from "../../Components/OrderProcessLayout";
+import OrderProcessLayout from "../../components/OrderProcessLayout";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import OtpInput from "react-otp-input";
